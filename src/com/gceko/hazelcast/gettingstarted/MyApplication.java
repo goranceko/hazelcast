@@ -1,4 +1,4 @@
-package com.gceko.hazelcast;
+package com.gceko.hazelcast.gettingstarted;
 
 import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
