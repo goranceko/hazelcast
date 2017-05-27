@@ -1,4 +1,4 @@
-package com.gceko.hazelcast;
+package com.gceko.hazelcast.gettingstarted;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +11,20 @@ public class Users {
     /**
      * The users in the database
      */
-    private final User[] users = {new User("fred123", "Fred", "Jones", "fredj@a.com"), new User("jim", "Jim", "Jones", "jimj@a.com"), new User("bill", "Bill", "Jones", "bill@a.com"), new User("ted111", "Edward", "Jones", "tedj@a.com"), new User("annie", "Annette", "Jones", "annj@a.com"), new User("lucy", "Lucy", "Jones", "lucyj@a.com"), new User("jimj", "James", "Jones", "jimj@a.com"), new User("jez", "Jerry", "Jones", "fredj@a.com"), new User("will", "William", "Jones", "willj@a.com"), new User("shaz", "Sharon", "Jones", "shazj@a.com"), new User("paula", "Paula", "Jones", "pauj@a.com"), new User("leo", "Leonardo", "Jones", "leoj@a.com"),};
+    private final User[] users = {
+            new User("fred123", "Fred", "Jones", "fredj@a.com"),
+            new User("jim", "Jim", "Jones", "jimj@a.com"),
+            new User("bill", "Bill", "Jones", "bill@a.com"),
+            new User("ted111", "Edward", "Jones", "tedj@a.com"),
+            new User("annie", "Annette", "Jones", "annj@a.com"),
+            new User("lucy", "Lucy", "Jones", "lucyj@a.com"),
+            new User("jimj", "James", "Jones", "jimj@a.com"),
+            new User("jez", "Jerry", "Jones", "fredj@a.com"),
+            new User("will", "William", "Jones", "willj@a.com"),
+            new User("shaz", "Sharon", "Jones", "shazj@a.com"),
+            new User("paula", "Paula", "Jones", "pauj@a.com"),
+            new User("leo", "Leonardo", "Jones", "leoj@a.com"),};
+
     private final Map<String, User> userMap;
 
     public Users() {
